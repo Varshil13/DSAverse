@@ -28,12 +28,7 @@ private:
         sol.push_back(nums[start]);
         backtrack(nums,start+1,sol,res);
         sol.pop_back();
-
-        int index = start+1;
-        while(index!=nums.size() && nums[index] == nums[index-1]){
-            index ++;   
-        }
-        backtrack(nums,index,sol,res);
+        backtrack(nums,start+1,sol,res);
 
     }
         
