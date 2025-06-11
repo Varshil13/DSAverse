@@ -14,14 +14,23 @@ vector <int> bfsOfGraph(int V , vector<int> adj[]){
         
         
         for(auto it : adj[node]){
-            if(!vis[node]){
+            if(!vis[it]){
                 vis[it] == 1;
                 q.push(it);
             }
         }
     }
     return bfs;
-    
+     
+
+    /// Total Time Complexity = O(V + 2E)
+    ///Total Space COmplexity = O(V) for: vis[] array bfs vector queue
+
+
+
+
+
+
     
     
     

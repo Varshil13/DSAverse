@@ -28,7 +28,7 @@ void dfs(int node, vector<vector<int>> &adj, vector<int> &vis, vector<int> &ls) 
     
     for (int i = 0; i < adj.size(); i++) {
         if (adj[node][i] == 1 && !vis[i]) {
-            dfs(i, adj, vis, ls);
+            dfs(i,  adj, vis, ls);
         }
     }
 }
