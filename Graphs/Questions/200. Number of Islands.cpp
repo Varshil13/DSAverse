@@ -46,3 +46,14 @@ class Solution {
     return count;
   }
 };
+
+/*
+Time Complexity (TC):
+- Each cell is visited at most once.
+- For an n x m grid, TC = O(n * m)
+
+Space Complexity (SC):
+- vis array: O(n * m)
+- BFS queue: O(min(n * m)), in worst case all land cells are connected.
+- So, SC = O(n * m)
+*/
