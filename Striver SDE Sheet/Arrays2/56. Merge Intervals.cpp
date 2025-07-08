@@ -1,7 +1,7 @@
-//we are given a vec of vec , we have to merge the overlapping,
-//we first inserted the first vector, and then started checking the last element of 
-// the array with the first element of the next vec in the given interval , 
-// if the back()[1] is greater then we have overlap so we update it with the new limit.
+/*We are given a vec of vec , we have to merge the overlapping,
+we first inserted the first vector, and then started checking the last element of 
+ the array with the first element of the next vec in the given interval , 
+ if the back()[1] is greater then we have overlap so we update it with the new limit. */
 
 
 
