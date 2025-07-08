@@ -9,7 +9,7 @@
  *   1. `sum`: The current sum of the subarray being considered.
  *   2. `maxi`: The maximum subarray sum found so far.
  * - Iterate through each element in the array:
- *   - Add the current element to `sum`.
+ *   - Add the current element to w`sum`.
  *   - Update `maxi` if `sum` is greater than the current `maxi`.
  *   - If `sum` becomes negative, reset it to 0. This is because a negative sum will decrease the sum
  *     of any future subarray, so it's better to start a new subarray from the next element.
