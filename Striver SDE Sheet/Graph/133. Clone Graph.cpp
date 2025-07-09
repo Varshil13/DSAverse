@@ -43,6 +43,3 @@ void DFS(Node* node, Node* clone_node){
 
 
 
-git add .
-git commit -m "Question Upload"
-git push
