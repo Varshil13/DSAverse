@@ -25,7 +25,3 @@ public:
         
     }
 };
-
-git add .
-git commit -m "Question Upload"
-git push
